@@ -59,7 +59,7 @@
 #include <localevent.h>
 #include <session.h>
 
-#define MAX_COOKIE_LEN	256
+#define MAX_COOKIE_LEN	1024
 
 #define SESS_PRIVATE_DATA(c) \
   ((Sess_Private_Data *) ((char *)(c) + sess_private_data_offset))
